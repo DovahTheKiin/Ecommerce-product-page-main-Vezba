@@ -136,8 +136,8 @@ popupImg4.addEventListener('click', function(){
 })
 arrowRight.addEventListener('click', function counterFunction(){
     let i = popupMainImg.src.match(/\d+/g);
-    console.log(typeof i[1]);
-    let iNumber = Number(i[1]);
+    console.log(typeof i[2]);
+    let iNumber = Number(i[2]);
     let iNumberMinusOne = iNumber - 1;
     console.log(iNumber);
     let counter = iNumber + 1;
