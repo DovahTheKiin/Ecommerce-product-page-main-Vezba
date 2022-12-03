@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ECOMMERCE PRODUCT PAGE MAIN</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/x-icon" href="images/favicon-32x32.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="shadow-bg"></div>
+    <!--  MOBILE MENU  -->
+
+    <div class="mobile-menu">
+        <img src="images/icon-close.svg" alt="Close Icon" class="close-button">
+        <ul class="mobile-menu-list">
+            <li>
+                <a href="#">Collections</a>
+            </li>
+            <li>
+                <a href="#">Men</a>
+            </li>
+            <li>
+                <a href="#">Women</a>
+            </li>
+            <li>
+                <a href="#">About</a>
+            </li>
+            <li>
+                <a href="#">Contact</a>
+            </li>
+        </ul>
+    </div>
+
+    <!-- POPUP SLIDE -->
+    <div class="popup-images-slideshow">
+        <svg width="18" height="19" xmlns="http://www.w3.org/2000/svg" class="popup-slide-close-img"><path d="m11.596.782 2.122 2.122L9.12 7.499l4.597 4.597-2.122 2.122L7 9.62l-4.595 4.597-2.122-2.122L4.878 7.5.282 2.904 2.404.782l4.595 4.596L11.596.782Z" fill="#fff" fill-rule="evenodd"/></svg>
+        <div class="popup-images-main-image">
+            <img src="images/image-product-1.jpg" alt="Product Image" class="popup-main-img">
+            <div class="popup-arrows">
+                <div class="arrow-left">
+                    <img src="images/icon-previous.svg" alt="Left Arrow">
+                </div>
+                <div class="arrow-right">
+                    <img src="images/icon-next.svg" alt="Right Arrow">
+                </div>
+            </div>
+        </div>
+        <div class="popup-images">
+            <img src="images/image-product-1-thumbnail.jpg" alt="Product Image" class="popup-image popup-img-1">
+            <img src="images/image-product-2-thumbnail.jpg" alt="Product Image" class="popup-image popup-img-2">
+            <img src="images/image-product-3-thumbnail.jpg" alt="Product Image" class="popup-image popup-img-3">
+            <img src="images/image-product-4-thumbnail.jpg" alt="Product Image" class="popup-image popup-img-4">
+        </div>
+    </div>
+    
+    <!-- MAIN -->
+
+    <div class="wrapper">
+        <div class="cart">
+            <div class="cart-header">
+                <h3>Cart</h3>
+            </div>
+            <div class="empty-cart-wrapper">
+                <p class="empty-cart">Your cart is empty.</p>
+            </div>
+            <div class="cart-items">
+                <div class="cart-items-content">
+                    <img src="images/image-product-1-thumbnail.jpg" alt="Product Image" class="cart-product-img">
+                    <div class="cart-item-description">
+                        <p class="cart-item-name">
+                            Fall Limited Edition Sneakers
+                        </p>
+                        <p class="cart-item-price">
+                            $<span class="one-item-price">125</span>.00 x <span class="items-amount">3</span> <span class="bold">$</span><span class="total-price">375</span><span class="bold">.00</span>
+                        </p>
+                    </div>
+                    <img src="images/icon-delete.svg" alt="Trashcan Icon" class="delete-item-img">
+                </div>
+                <button class="checkout-btn">Checkout</button>
+            </div>
+        </div>
+        <nav class="nav">
+            <button class="hamburger-menu"><img src="images/icon-menu.svg" alt="Hamburger menu"></button>
+            <a href="index.html" class="logo">
+                <img src="images/logo.svg" alt="Logo Image" class="nav-logo">
+            </a>
+            <ul class="nav-list">
+                <li>
+                    <a href="#">Collections</a>
+                </li>
+                <li>
+                    <a href="#">Men</a>
+                </li>
+                <li>
+                    <a href="#">Women</a>
+                </li>
+                <li>
+                    <a href="#">About</a>
+                </li>
+                <li>
+                    <a href="#">Contact</a>
+                </li>
+            </ul>
+            <div class="shop">
+                <button class="cart-btn">
+                    <svg width="22" height="20" xmlns="http://www.w3.org/2000/svg"><path class="cart-color" d="M20.925 3.641H3.863L3.61.816A.896.896 0 0 0 2.717 0H.897a.896.896 0 1 0 0 1.792h1l1.031 11.483c.073.828.52 1.726 1.291 2.336C2.83 17.385 4.099 20 6.359 20c1.875 0 3.197-1.87 2.554-3.642h4.905c-.642 1.77.677 3.642 2.555 3.642a2.72 2.72 0 0 0 2.717-2.717 2.72 2.72 0 0 0-2.717-2.717H6.365c-.681 0-1.274-.41-1.53-1.009l14.321-.842a.896.896 0 0 0 .817-.677l1.821-7.283a.897.897 0 0 0-.87-1.114ZM6.358 18.208a.926.926 0 0 1 0-1.85.926.926 0 0 1 0 1.85Zm10.015 0a.926.926 0 0 1 0-1.85.926.926 0 0 1 0 1.85Zm2.021-7.243-13.8.81-.57-6.341h15.753l-1.383 5.53Z" fill="hsl(219, 9%, 45%)" fill-rule="nonzero"/></svg>
+                    <p class="cart-items-number-notification">0</p>
+                </button>
+                <img src="images/image-avatar.png" alt="Avatar Image" class="avatar-img">
+            </div>
+        </nav>
+        <main class="main">
+            <section class="carousel-section">
+                <div class="main-img-container">
+                    <!-- <img src="images/image-product-1.jpg" alt="Sneakers Image" class="main-img"> -->
+                </div>
+                <div class="other-images">
+                    <img src="images/image-product-1-thumbnail.jpg" alt="Product" class="sneakers-img img-1 selected">
+                    <img src="images/image-product-2-thumbnail.jpg" alt="Product" class="sneakers-img img-2">
+                    <img src="images/image-product-3-thumbnail.jpg" alt="Product" class="sneakers-img img-3">
+                    <img src="images/image-product-4-thumbnail.jpg" alt="Product" class="sneakers-img img-4">
+                </div>
+                <div class="carousel-arrows">
+                    <div class="arrow-left arrow-left-mobile">
+                        <img src="images/icon-previous.svg" alt="Left Arrow">
+                    </div>
+                    <div class="arrow-right arrow-right-mobile">
+                        <img src="images/icon-next.svg" alt="Right Arrow">
+                    </div>
+                </div>
+            </section>
+            <section class="details-section">
+                <p class="category">
+                    SNEAKER COMPANY
+                </p>
+                <h1 class="product-title">
+                    Fall Limited Edition Sneakers
+                </h1>
+                <p class="text">
+                    These low-profile sneakers are your perfect casual wear companion. Featuring a 
+                    durable rubber outer sole, they'll withstand everything the weather can offer.
+                </p>
+                <div class="price">
+                    <div class="current-price-discount">
+                        <p class="current-price">$125.00</p>
+                        <p class="discount">50%</p>
+                    </div>
+                    <p class="original-price">$250.00</p>
+                </div>
+                <div class="add-to-cart">
+                    <div class="number-of-items">
+                        <button class="minus-btn"><img src="images/icon-minus.svg" alt="Minus Icon"></button>
+                        <p class="items-counter">0</p>
+                        <button class="plus-btn"><img src="images/icon-plus.svg" alt="Plus Icon"></button>
+                    </div>
+                    <button class="add-to-cart-btn">
+                        <img src="images/icon-cart.svg" alt="Cart Icon">
+                        Add to cart</button>
+                </div>
+            </section>
+        </main>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>
