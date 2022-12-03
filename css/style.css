@@ -198,6 +198,7 @@ img {
     justify-content: center;
     align-items: center;
     cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
 }
 .arrow-left img, .arrow-right img {
     width: 10px;
