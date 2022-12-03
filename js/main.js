@@ -150,8 +150,8 @@ arrowRight.addEventListener('click', function counterFunction(){
 })
 arrowLeft.addEventListener('click', function counterFunction(){
     let i = popupMainImg.src.match(/\d+/g);
-    console.log(typeof i[1]);
-    let iNumber = Number(i[1]);
+    console.log(typeof i[2]);
+    let iNumber = Number(i[2]);
     let iNumberReal = iNumber - 2;
     let iNumberPlusOne = iNumberReal + 1;
     console.log(iNumber);
